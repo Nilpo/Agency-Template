@@ -5,12 +5,13 @@ Hi There!
 Thank you for checking out my HTML5 templates.
 
 Features:-
-  Full width portfolio grid
-  Fully responsive
-  Full screen header
-  Animated Scrolling for links
-  Customizable
-  Includes all SASS files and map files.
+  - Full width portfolio grid
+  - Fully responsive
+  - Full screen header
+  - Animated Scrolling for links
+  - Customizable
+  - Includes all SASS files and map files.
+  - Uses Lemonade.scss as a basic, lightweight grid framework (http://lemonade.im/)
 
 If you liked this template please share it with your friends or on social media!
 
