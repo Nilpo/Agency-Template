@@ -15,6 +15,3 @@ Features:-
 If you liked this template please share it with your friends or on social media!
 
 Thanks!
-
-
-
