@@ -16,6 +16,7 @@ $(document).ready(function(){
     scroll_start = $(this).scrollTop();
     if (scroll_start > offset.top ) {
       $('.pos-fixed').css('background-color', '#00a8ff');
+      $('.pos-fixed').css('box-shadow', '0px 2px 10px rgba(0,0,0,0.3)');
       $('.logo').css('color', 'white');
       $('#toggle').css('color', 'white');
       $('a').addClass('scrolled');
@@ -24,6 +25,7 @@ $(document).ready(function(){
       }
     else {
       $('.pos-fixed').css('background-color', 'white');
+      $('.pos-fixed').css('box-shadow', '0px 0px 0px #fff');
       $('#blue').css('color', '#00a8ff');
       $('#toggle').css('color', '#00a8ff');
       $('a').removeClass('scrolled');
@@ -39,14 +41,18 @@ $(document).ready(function(){
       scrollTop: $('.portfolio').offset().top
     },1200)
   });
-
-  $('.pos-button').click(function() {
+  // see our work button animates to portfolio section
+  $('.scroll-port').click(function() {
     $('html, body').animate({
       scrollTop: $('.portfolio').offset().top
     }, 1200)
   });
-
-
+  // scroll for about page. When the button is clicked, it will animate to a specific section, by id or class.
+  $('.team-scroll').click(function() {
+    $('html, body').animate({
+      scrollTop: $('.team-profiles').offset().top
+    }, 1200)
+  });
 
   });
 
